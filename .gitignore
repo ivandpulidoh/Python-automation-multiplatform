@@ -1,1 +1,22 @@
 output/
+
+# Ignorar carpetas del ambiente virtual
+venv/
+selenide-env/
+
+# Ignorar configuraciones específicas de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar configuraciones de IDEs/editores comunes
+.idea/
+.vscode/
+*.swp
+
+# Ignorar archivos de logs y otros generados automáticamente
+*.log
+*.tmp
+
+# Ignorar archivos de prueba de Behave
+reports/
