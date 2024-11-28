@@ -1,10 +1,11 @@
-## Sample Python Selenium Cucumber Framework
+## Ejemplo Python Selene Appium Request Cucumber Framework
 
-The tech stack used in this project are:
-1. **Python** as the programming language for writing test code
-2. **Cucumber** as the framework
-3. **PIP3** as the build tool
-4. **VSCode** as the preferred IDE for writing python code.
+Herramientas a utilizar en el proyecto:
+1. **Python**
+2. **Cucumber** como framework
+3. **Appium** para la automatización mobile
+3. **PIP3** 
+4. **VSCode** 
 
 #### Getting Started
 Setup your machine.
@@ -23,6 +24,4 @@ Setup your machine.
 * Report will be found here: ```/output/report.html```
 ---
 
-### Tests
-1. **[TestCase-1](https://github.com/vinaykumarvvs/sample-selenium-python-cucumber-framework/blob/main/features/TestA.feature):** Heroku - FormAuthentication Cases
-2. **[TestCase-2](https://github.com/vinaykumarvvs/sample-selenium-python-cucumber-framework/blob/main/features/TestB.feature):** Heroku - Drag And Drop Cases
+

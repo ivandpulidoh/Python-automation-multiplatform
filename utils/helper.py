@@ -4,7 +4,7 @@ from appium.options.android import UiAutomator2Options
 import os
 
 def create_driver():
-  value = 'android'#os.environ.get('browser')
+  value = 'apis'#os.environ.get('browser')
   if value == 'chrome':
     driver = browser
     return driver

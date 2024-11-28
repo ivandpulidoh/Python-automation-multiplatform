@@ -3,6 +3,9 @@ from behave import *
 from selene import by, have, be
 from appium.webdriver.common.appiumby import AppiumBy
 
+from selene.support.shared import config
+config.timeout = 25
+
 by_id = lambda id: (AppiumBy.ID, f'org.wikipedia.alpha:id/{id}')
 
 @given('user open browser')
